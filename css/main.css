@@ -15,17 +15,6 @@
   --color-icon:#AFB1B8;
 }
 
-/* :root  */
-/* для боді background-color: E5E5E5; */
-/* колір заголовків color: #212121; */
-/*колір ссилок і кнопок color: 2196F3; */
-/*колір для текстів абзацу color: 757575; */
-/* колір для Н1 і кнопок color:FFFFFF; */
-/* base */
-/* color for body */
-/* font-family:Raleway – 700,Roboto – 400, 500, 700, 900 */
-/* font-family: 'Raleway', sans-serif; 
-font-family: 'Roboto', sans-serif; */
 body {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
@@ -48,20 +37,10 @@ img {
   color: inherit;
 }
 
-/* h1{
-   
-
-
-/* p{
-   color: var(--paragraph-text-color);
-} */
 p {
   margin: 0;
 }
 
-/*для hero section background-color: 2F303A; */
-/* колір лого color:000000; */
-/* колір для Н1 і кнопок color:FFFFFF; */
 .container {
   width: 1200px;
   padding: 0 15px;
