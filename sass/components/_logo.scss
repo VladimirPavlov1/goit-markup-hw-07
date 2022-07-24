@@ -6,7 +6,13 @@
     line-height: 1.2;
     letter-spacing: .03em; 
     text-decoration: none;
+    &.logo--light{
+        color: var(--button-text-color);
+        display: block;
+        margin-bottom:20px;
+    }
 }
+
 .logo__particle{
     color:var(--accent-color);
 }

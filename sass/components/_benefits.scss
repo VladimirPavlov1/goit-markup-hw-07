@@ -1,20 +1,26 @@
 .benefits{
 
-}
-.benefits__list{
+   &__list{
    display: flex;
    justify-content: space-between;
-   text-align: start;
+   text-align: start;}
    
+   &__title{
+   color: var( --title-text-color);}
+   
+   &__text{
+   line-height: 1.71;
+   letter-spacing: .03em;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 0px;}
 }
 
 .benefits__icon{
    max-width:270px;
    display: block;
    
-}
-
-.benefits__icon::before{
+   &::before{
    display: block;
    content:'';
    height: 120px;
@@ -23,7 +29,7 @@
    background-size: 70px 70px;
    background-position: center;
    margin-bottom: 30px;
-   background-color:#F5F4FA;
+   background-color:#F5F4FA;}
    
 }
 .benefits__icon-antenna::before{
@@ -37,14 +43,4 @@
 }
 .benefits__icon-astronaut::before{
    background-image: url('../images/logo-4.svg');
-}
-.benefits__title{
-color: var( --title-text-color);
-}
-.benefits__text{
-   line-height: 1.71;
-   letter-spacing: .03em;
-   margin-top: 0;
-   margin-bottom: 0;
-   padding-top: 0px;
 }

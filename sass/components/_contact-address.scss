@@ -10,11 +10,10 @@
 }
 .contact-address__item{
     display: block;
+    margin-left: 50px;
 
 }
-.contact-address__item{
-    margin-left: 50px;
-}
+
 .contact-address__link{
 
     color: var(--paragraph-text-color); 
@@ -32,22 +31,17 @@
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
-}
-.contact-address__link:hover,
-.contact-address__link:focus{
-    color: var(--accent-color);
-    
-}
-.contact-address__link:active{
-   color: var(--accent-color);  
+    &link:hover,
+    &link:focus,
+    &:active{
+   color: var(--accent-color); } 
 }
 .icon-envelope{
     fill:var(--paragraph-text-color);
     display: inline-block;
     margin-bottom: -5px;
-}
-.contact-address__link:hover .icon-envelope,
-.contact-address__link:focus .icon-envelope{
-    fill: var(--accent-color);
+    .contact-address__link:hover &,
+    .contact-address__link:focus &{
+    fill: var(--accent-color);}
 
 }
