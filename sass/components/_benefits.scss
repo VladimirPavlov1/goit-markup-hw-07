@@ -1,0 +1,50 @@
+.benefits{
+
+}
+.benefits__list{
+   display: flex;
+   justify-content: space-between;
+   text-align: start;
+   
+}
+
+.benefits__icon{
+   max-width:270px;
+   display: block;
+   
+}
+
+.benefits__icon::before{
+   display: block;
+   content:'';
+   height: 120px;
+   
+   background-repeat: no-repeat;
+   background-size: 70px 70px;
+   background-position: center;
+   margin-bottom: 30px;
+   background-color:#F5F4FA;
+   
+}
+.benefits__icon-antenna::before{
+   background-image: url('../images/logo-1.svg');
+}
+.benefits__icon-clock::before{
+   background-image: url('../images/logo-2.svg');
+}
+.benefits__icon-diagram::before{
+   background-image: url('../images/logo-3.svg');
+}
+.benefits__icon-astronaut::before{
+   background-image: url('../images/logo-4.svg');
+}
+.benefits__title{
+color: var( --title-text-color);
+}
+.benefits__text{
+   line-height: 1.71;
+   letter-spacing: .03em;
+   margin-top: 0;
+   margin-bottom: 0;
+   padding-top: 0px;
+}
