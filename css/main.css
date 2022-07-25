@@ -434,6 +434,7 @@ p {
 }
 
 .team__inner {
+  width: 270px;
   text-align: center;
   padding: 30px 58px 16px;
 }
@@ -492,7 +493,7 @@ p {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-links__linklink:hover, .social-links__linklink:focus {
+.social-links__link:hover, .social-links__link:focus {
   background-color: var(--accent-color);
   outline: none;
 }
@@ -562,7 +563,7 @@ p {
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.our-clients__link__link:hover, .our-clients__link__link:focus {
+.our-clients__link:hover, .our-clients__linklink:focus {
   border: 1px solid var(--accent-color);
   outline: none;
 }
