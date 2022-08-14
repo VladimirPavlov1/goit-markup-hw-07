@@ -6,7 +6,9 @@
    text-align: start;}
    
    &__title{
-   color: var( --title-text-color);}
+   color: var( --title-text-color);
+   text-transform: uppercase;
+   }
    
    &__text{
    line-height: 1.71;

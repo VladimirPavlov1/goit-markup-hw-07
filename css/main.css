@@ -309,6 +309,7 @@ p {
 
 .benefits__title {
   color: var(--title-text-color);
+  text-transform: uppercase;
 }
 
 .benefits__text {
