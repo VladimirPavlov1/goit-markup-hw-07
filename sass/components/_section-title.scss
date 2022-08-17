@@ -1,6 +1,6 @@
 .section-title{
     color: var( --title-text-color);
-    font-family:'Roboto', sans-serif;
+    font-family:var(--main-font);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -9,7 +9,7 @@
     text-align: center;
   }
   .title{
-    font-family:'Roboto', sans-serif; 
+    font-family:var(--main-font);
     font-weight: 700;
     font-size: 14px;
     line-height:1.14;
@@ -19,7 +19,7 @@
     margin-bottom: 10px;
  }
  .social__title{
-  font-family: 'Roboto', sans-serif;
+  font-family:var(--main-font);
   font-style: 700;
   font-size: 14px;
   line-height: 1,14;

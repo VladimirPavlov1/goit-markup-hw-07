@@ -58,7 +58,7 @@
  }
  
  .modal-form__title{
-    font-family: 'Roboto';
+    font-family:var(--main-font);
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -78,7 +78,7 @@
  }
  
  .form-field__label{
-    font-family: 'Roboto';
+    font-family:var(--main-font);;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;

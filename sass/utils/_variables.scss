@@ -1,4 +1,5 @@
 :root{
+    // /colors
     --title-text-color:#212121;
     --paragraph-text-color:#757575;
     --accent-color:#2196F3;
@@ -12,5 +13,8 @@
     --border-poster-color:#EEEEEE;
     --background-hang:#C4C4C4;
     --color-icon:#AFB1B8;
+
+    // fonts
+    --main-font:'Roboto', sans-serif;
+    --secondary-font:'Raleway', sans-serif;
 }
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
